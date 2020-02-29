@@ -685,6 +685,14 @@
       <Project>{3AAC6E28-6023-5197-782A-4C2AC935BD1E}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="VivoxEditor.csproj">
+      <Project>{A5A9FEDF-DAC5-ABEC-7C7B-2B5DCA3D85C3}</Project>
+      <Name>VivoxEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VivoxUnity.csproj">
+      <Project>{7AF38053-9301-62C3-B449-26E8E307C7FE}</Project>
+      <Name>VivoxUnity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

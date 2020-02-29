@@ -6,3 +6,4 @@ Plugins |
 --- |
 YamlDotNet |
 ForgeNetworkingRemastered |
+Vivox Voice And Text Chat |

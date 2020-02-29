@@ -815,6 +815,16 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="VivoxEditor.csproj">
+      <Project>{A5A9FEDF-DAC5-ABEC-7C7B-2B5DCA3D85C3}</Project>
+      <Name>VivoxEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="VivoxUnity.csproj">
+      <Project>{7AF38053-9301-62C3-B449-26E8E307C7FE}</Project>
+      <Name>VivoxUnity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
